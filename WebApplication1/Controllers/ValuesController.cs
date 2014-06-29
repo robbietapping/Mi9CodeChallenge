@@ -17,8 +17,11 @@ namespace RobertTapping.Mi9CC.Controllers
     {
 
         // POST api/values
-        public object Post([FromBody]string postData)
+        public async Task<object> Post()
         {
+
+            string postData = await this.Request.Content.ReadAsStringAsync();
+            
             try
             {
                 if (String.IsNullOrEmpty(postData))
@@ -38,11 +41,8 @@ namespace RobertTapping.Mi9CC.Controllers
             }
             catch (Exception ex)
             {
-                this.StatusCode(HttpStatusCode.BadRequest);
-                return new
-                {
-                    error = String.Format("Could not decode request: {0}", ex.Message)
-                };
+               return this.Request.CreateResponse(HttpStatusCode.BadRequest, new { error = String.Format("Could not decode request: {0}", ex.Message) });
+
 
             }
         }

@@ -31,8 +31,8 @@ namespace RobertTapping.Mi9CC.Tests.Controllers
 
                 sr.Close();
             }
-
-            object x = controller.Post(jsonString);
+    
+                 controller.Post();
 
 
 
@@ -54,7 +54,7 @@ namespace RobertTapping.Mi9CC.Tests.Controllers
                 
                 sr.Close();
             }
-           var response = controller.Post(jsonString);
+         controller.Post();
 
 
             // Assert
@@ -67,7 +67,7 @@ namespace RobertTapping.Mi9CC.Tests.Controllers
             // Arrange
             ValuesController controller = new ValuesController();
 
-            var response = controller.Post("");
+            var response = controller.Post();
 
 
             // Assert
