@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobertTapping.Mi9CC", "WebApplication1\RobertTapping.Mi9CC.csproj", "{29488175-2698-4FFA-9B35-75A38536F7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobertTapping.Mi9CC.Tests", "WebApplication1.Tests\RobertTapping.Mi9CC.Tests.csproj", "{6A790912-3B05-4CCD-B35E-716B8A1D0248}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29488175-2698-4FFA-9B35-75A38536F7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29488175-2698-4FFA-9B35-75A38536F7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29488175-2698-4FFA-9B35-75A38536F7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29488175-2698-4FFA-9B35-75A38536F7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A790912-3B05-4CCD-B35E-716B8A1D0248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A790912-3B05-4CCD-B35E-716B8A1D0248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A790912-3B05-4CCD-B35E-716B8A1D0248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A790912-3B05-4CCD-B35E-716B8A1D0248}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
